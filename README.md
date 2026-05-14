@@ -1,6 +1,10 @@
 # ALIFNN
 ### Artificial Leaky Integrate-and-Fire Neural Network
 
+Before you read the pdf:-As far as I am aware, no one has done the exact same thing as me although similar concept exist. So I think my contribution is unique(But let me know if someone has already done what i have done). Also this is still a WIP so don't expect it to be polished 
+
+---
+
 A biologically-inspired neural architecture for time series/sequential prediction that mimics the decay and bounding mechanisms of biological neurons. ALIFNN introduces dual-level exponential decay, applied separately at the dendrite and output levels, allowing the model to naturally forget distant past inputs while remaining bounded, analogous to membrane potential dynamics in real neurons. Designed to be lightweight yet expressive, it captures temporal dependencies without the complexity of LSTMs or GRUs.
 
 ---
